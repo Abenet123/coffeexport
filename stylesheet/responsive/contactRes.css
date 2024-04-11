@@ -1,0 +1,165 @@
+/* this is responsive page for contact section */
+
+@media(max-width: 680px){
+    .small-lists{
+        display: block;
+    }
+}
+@media(max-width: 1170px){
+    .map{
+        padding-right: 20px;
+    }
+}
+/* footer responsive  */
+@media(max-width:935px){
+    #icon{
+        font-size: 16px;
+    }
+    .name{
+        font-size: 17px;
+    }
+    .place-add{
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 820px){
+    .footer-logo{
+        width: 150px;
+    }
+    .Copyright p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 753px){
+    .footer-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .links{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-right: 100px;
+    }
+    .insta{
+        padding-right: 30px;
+    }
+    .gap{
+        margin-left: 50px;
+        width: 500px;
+    }
+    .Copyright{
+        margin-left: 160px;
+        margin-top: 60px;
+    }
+    .footer-logo{
+        width: 250px;
+    }
+    .add-info{
+        order: 3;
+    }
+    .logo-div{
+        order: 1;
+    }
+    .social h2{
+        color: #fff;
+        padding: 40px 70px;
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 0;
+        order: 2;
+        margin-left: 50px;
+        padding: 0px 0px 30px 0px;
+    }
+    .links{
+        gap: 50px;
+    }
+    .map{
+        padding-right: 30px;
+    }
+    
+}
+
+@media(max-width: 550px){
+    .footer-logo{
+        width: 200px;
+    }
+    .gap{
+        margin-left: 40px;
+        width: 300px;
+    }
+    .Copyright{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .map{
+        padding-right: 40px;
+    }
+}
+@media(max-width: 400px){
+    .contact-section{
+        max-width: 320px;
+    }
+    input{
+        padding: 10px;
+    }
+    #submit{
+        padding: 10px;
+    }
+    #message{
+        max-width: 250px;
+    }
+}
+@media(max-width: 325px){
+    .contact-section{
+        margin: 40px 20px;
+    }
+    input{
+        padding: 20px;
+    }
+    #submit{
+        padding: 10px;
+    }
+    #message{
+        max-width: 215px;
+    }
+}
+
+@media(max-width: 430px){
+    .gap{
+        width: 300px;
+        margin-left: -20px;
+    }
+    .Copyright{
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+}
+
+@media(max-width: 320px){
+    .social h2{
+        color: #fff;
+        padding: 30px 90px;
+        font-size: 15px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .place-add p{
+        font-size: 14px;
+    }
+    .gap{
+        width: 250px;
+        margin-left: -40px;
+    }
+    .Copyright p{
+        font-size: 12px;
+        margin-left: -25px;
+    }
+}

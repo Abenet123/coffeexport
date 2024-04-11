@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.story{
+    max-width: 60rem;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(64, 42, 42);
+    border-radius: 20px;
+    color: white;
+}
+.story-image img{
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.story-content h2{
+    color: rgb(21, 97, 179);
+    padding: 70px 0px 0px 40px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.story-content p{
+    padding-top: 30px;
+    padding-left: 40px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    max-width: 35rem;
+}

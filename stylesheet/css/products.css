@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+.product-cont{
+    margin: 40px auto;
+    max-width: 70rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    border: 1px solid black;
+}
+#bar{
+    font-size: 30px;
+}
+.options{
+    margin: 20px 37rem;
+    display: flex;
+    gap: 20px;
+}
+.options > button{
+    padding: 6px 20px;
+    border-radius: 10px;
+    border:2px solid black;
+    outline: none;
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.products img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.products img:hover{
+    transform: scale(1.1);
+}
+.products{
+}
+
+/* .products:hover::before{
+    content: '';
+    width: 16.2rem;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    transition: 2s ease-in-out;
+    top: 43%;
+} */

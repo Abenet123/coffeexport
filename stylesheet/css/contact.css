@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+/* contact body session */
+input{
+    max-width: 350px;
+    padding: 20px;
+    margin: 10px 30px;
+    border: none;
+    background-color: rgb(198, 193, 193);
+}
+.contact-section h1{
+    color: orangered;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 23px;
+    margin: 0px 0px 20px 20px;
+}
+.contact-section{
+    background-color: #fff;
+}
+#message{
+    margin: 10px 30px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(198, 193, 193);
+}
+#icon{
+    color: white;
+}
+#submit{
+    max-width: 350px;
+    padding: 20px;
+    margin: 10px 30px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: 0.5s ease-in-out;
+}
+#submit:hover{
+    background-color: rgb(74, 186, 201);
+    color: #fff;
+    border-radius: 30px;
+}
+/* footer section */

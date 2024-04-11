@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    display: flex;
+    width: 90vw;
+    margin: 10px auto;
+    overflow-x: hidden;
+}
+.explain-head{
+    padding: 40px 0px 50px;
+    color: orangered;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.slider1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: all 700ms;
+}
+.slider1 h2{
+    font-size: 35px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    padding: 10px 60px 10px 10px;
+    background-color: rgb(188, 60, 14);
+    border-radius: 10px;
+}
+.slider1.active{
+    flex:5;
+}
+.slider1.active h2{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media(max-width: 480px){
+    .container{
+        width: 100vw;
+        transition: opacity 0.3s ease-in 0.4s;
+    }
+    .slider1 h2{
+        font-size: 20px;
+    }    
+    .slider1:nth-of-type(4),
+    .slider1:nth-of-type(5){
+        display: none;
+    }
+}
+
+@media(max-width: 970px){
+    .slider1 h2{
+        font-size: 25px;
+        padding: 10px 60px 10px 10px;
+    }
+    
+}
+@media(max-width: 625px){
+    .slider1 h2{
+        font-size: 20px;
+        padding: 10px 60px 10px 10px;
+    }
+}
+@media(max-width: 525px){
+    .slider1 h2{
+        font-size: 16px;
+        padding: 10px 40px 10px 10px;
+    }
+}
+@media(max-width: 335px){
+    .slider1 h2{
+        font-size: 13px;
+        padding: 10px 30px 10px 10px;
+    }
+}
+@media(max-width:){
+    
+}
+@media(max-width:){
+    
+}
